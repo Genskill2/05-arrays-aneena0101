@@ -6,7 +6,7 @@
   int min(int y[], int m)
 { int min=y[0];
     for(int i=0;i<m;++i)
-    { if(y[i]<max) max=y[i];
+    { if(y[i]<min) min=y[i];
      else continue;}
  return min;
 }
